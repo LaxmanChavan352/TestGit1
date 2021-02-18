@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="26.300" timestamp="2021-02-16T13:24:30.404891" hostname="DESKTOP-7PJE425"><testcase classname="test_fullDemo.TestProjectEndToEnd" name="test_endToEndP" time="26.090" /></testsuite></testsuites>

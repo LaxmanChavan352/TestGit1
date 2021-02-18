@@ -1,0 +1,29 @@
+Started InternetExplorerDriver server (32-bit)
+3.150.1.0
+Listening on port 0
+Only local connections are allowed
+1613156744076	geckodriver	INFO	Listening on 127.0.0.1:54420
+1613156747360	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\LAXMAN~1\\AppData\\Local\\Temp\\rust_mozprofilekTgl6L"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+1613156776828	Marionette	INFO	Listening on port 54428
+1613156777661	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613156777828	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1613156800074	Marionette	INFO	Stopped listening on port 54428
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613173948382	geckodriver	INFO	Listening on 127.0.0.1:60162
+1613173951432	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\LAXMAN~1\\AppData\\Local\\Temp\\rust_mozprofileGNC5ji"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+1613173981134	Marionette	INFO	Listening on port 60170
+1613173982006	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613173982041	Marionette	ERROR	[15] No reply from Marionette:Register
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1613176027177	Marionette	INFO	Stopped listening on port 60170
